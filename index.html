@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+    <section id="loginPage">
+        <form method="post" id="loginForm">
+            <h1>Javascript Quiz</h1>
+            <div class="center">Évaluez vos connaissances en JavaScript en
+                répondant aux questions que nous avons
+                spécialement sélectionnées pour vous.<br>
+                C'est fun et c'est gratuit.</div>
+            <label>Nom<input class="name" placeholder=" par exemple: Jethron" type="text" required pattern="[A-z]+."></label><span id="errorName" ></span><br>
+            <p>
+                <label>Email<input class="mail" placeholder="par exemple: jethronbwira@gmail.com" type="email" required
+                        pattern="^[a-zA-Z0-9\._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        title="Mettez un e-mail valide s'il vous plait">
+                </label>
+                <span id="errorMail" ></span>
+                <br>
+            </p>
+            <input class="button-ops" type="submit" value="Commencer">
+
+        </form>
+    </section>
+    <section id="questionsPage">
+        <form action="" method="post" id="container0">
+            <p>
+            <div id="title"><h2> Quel est le type d'un fichier JavaScript</h2></p>
+            </div><br>
+            <label id="gridlabel">
+              <div>Question <span id="nQuest"></span>/15</div>
+              <span id="compte" >60</span>
+            </label>
+            <div id="progressContainer" >
+              <div id="progress" >
+
+              </div>
+            </div>
+            
+            <label class="myLab">
+                <input class="selector"  type="radio" name="open">
+                <p id="t1">ts</p>
+            </label>
+            <label class="myLab" ><input class="selector"  type="radio" name="open">
+              <p id="t2">.Jsx</p>
+            </label>
+            <label class="myLab"><input class="selector" type="radio" name="open">
+              <p id="t3">.Js</p>
+            </label>
+            <label class="myLab"><input class="selector" type="radio" name="open">
+              <p id="t4">.j</p>
+            </label>
+            <br>
+            <div class="button-submissions">
+              <input class="button-quitter" type="submit" value="Quitter">
+              <input class="button-suivant" type="submit" value="Suivant" id="terminerOps">
+            </div>
+          </form>
+    </section>
+    <section id="resultPage">
+      <p id="userName1">Joseph</p>
+      <p id="userEmail1">katusele</p>
+      <img src="success.png" alt="" id="selectorImg">
+      <p id="userScore1">14/15</p>
+      <button type="button" class="button-ops" id="accueilB">ACCUEIL</button>
+    </section>
+</body>
+
+</html>

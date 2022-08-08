@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+#questionsPage{
+  display: none;
+  justify-content: center;
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom : 45px;
+}
+
+#resultPage 
+
+{
+    display: none;
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    width: 340px;
+    border-radius: 7px;
+    margin:auto;
+    margin-top: 90px;
+}
+
+body
+
+{
+background: linear-gradient(90deg, #85F6B8 0%, rgba(142, 217, 235, 0.85) 99.84%);
+font-family: 'inter', sans-serif;
+font-size: medium;  
+margin: 0;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-top: 80px;
+    padding-top: 25px;
+    height: auto;
+    justify-content: center;
+}
+
+#loginPage
+{
+    display: block;
+    justify-content: center;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
+h1
+
+{
+text-align: center;
+font-style: normal;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: auto;
+}
+
+ .name 
+{
+display: flex;
+height: 35px;
+width: 340px;
+color: rgb(4, 48, 246);
+}
+
+.mail 
+{
+display: flex;
+height: 35px;
+width: 340px;
+color: rgb(4, 48, 246);
+}
+
+.button-ops
+{
+display: flex;
+height: 40px;
+background-color:  #029b43 ;
+padding: 13px ;
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+border: none;
+margin: auto;
+justify-content: center;
+box-shadow: 2px 3px 4px slategray;
+
+}
+
+#userName1{
+  font-size: 40px;
+}
+
+#userEmail1{
+  font-size: 20px;
+}
+
+.center
+{
+text-align: center;
+margin-bottom: 45px;
+margin-top: 15px;
+}
+
+.titre
+{
+    font-size: medium;
+}
+
+
+  #progress {
+    width: 100%;
+    border-radius: 5px;
+    height: 10px;
+    background-color:  #027030;
+  }
+
+  #progressContainer{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+  }
+
+  #title
+  {
+    display: flex;
+    width: 100%;
+    font-size:larger;
+    margin-bottom: 25px;
+    
+  }
+
+  #accueilB{
+    margin-bottom: 40px;
+    background-color: rgb(46, 24, 167);
+  }
+  
+  .radion label
+  { 
+    display: block;
+    border: 2px solid rgb(234, 242, 6);
+    padding: 10px;
+    margin-top: 28px;
+    height: 25px;
+  }
+  .button-submissions
+  {
+    display: flex;
+    border: none;
+    align-content: center;
+   height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  .button-quitter
+  {
+background-color: rgb(235, 155, 6);
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+border: none;
+padding: 12px;
+margin: auto;
+box-shadow: 2px;
+  }
+
+  .button-suivant
+  {
+    opacity: 0.4;
+background-color:  #029b43 ;
+justify-content: center;
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+margin: auto;
+border: none;
+padding: 12px;
+  }
+   .myLab
+  { 
+    display: flex;
+    margin: 10px;
+    border: solid 2px #204a87;
+    cursor: pointer;
+  } 
+   .button-accueil
+   {
+    display: flex;
+    height: 40px;
+background-color: #027030;
+padding: 13px ;
+width: 145px;
+color: rgb(255, 244, 244);
+cursor: pointer;
+border: none;
+margin: auto;
+justify-content: center;
+box-shadow: 2px 3px 4px slategray;
+
+   }
+
+#gridlabel{
+  display: grid;
+  grid-template-columns: 1fr 10px;
+  grid-template-rows: 1fr;
+}
+
+#selectorImg
+{
+  width: 100px;
+  height: 100px;
+}
+
+  @media all and (max-width: 700px)
+{
+    #resultPage
+    {
+        width: auto;
+      margin: 50px 40px;
+    }
+}
+ 
+
+
+
+
